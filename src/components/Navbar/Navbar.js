@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import wittylogo from "../../assets/wittylogo.png";
 import "./Navbar.css";
 
@@ -8,7 +9,7 @@ const Navbar = () => {
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <div className="container-fluid">
           <div>
-            <img className="wittyLogo" src={wittylogo} href="#"></img>
+            <Link to="/"><img className="wittyLogo" src={wittylogo}></img></Link>
           </div>
           <button
             className="navbar-toggler"
@@ -26,10 +27,10 @@ const Navbar = () => {
             <form className="d-flex">
               <div className="d-flex ">
                 <div className="logIn me-3">
-                  <a href="#">Login</a>
+                  <Link to="/login" >Login</Link>
                 </div>
-                <div className="signUp">
-                  <a href="#"> Signup</a>
+                <div className="signUp me-3">
+                  <Link to="/signup">Signup</Link>
                 </div>
               </div>
             </form>
