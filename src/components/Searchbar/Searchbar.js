@@ -14,9 +14,9 @@ function Searchbar() {
             aria-label="Recipient's username"
             aria-describedby="basic-addon2"
           />
-          <span className="input-group-text searchBarIcon" id="basic-addon2">
+          <button className="input-group-text searchBarIcon" id="basic-addon2">
             Search
-          </span>
+          </button>
         </div>
       </div>
     </>
