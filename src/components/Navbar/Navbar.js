@@ -1,15 +1,17 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import wittylogo from "../../assets/wittylogo.png";
-import "./Navbar.css";
+import "./Navbar.css"
 
 const Navbar = () => {
   return (
     <>
-      <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div className="container-fluid">
-          <div>
-            <Link to="/"><img className="wittyLogo" src={wittylogo}></img></Link>
+      <nav className="navbar navbar-expand-lg navbar-light bg-light topNav">
+        <div className="container-fluid mt-1 mb-1">
+          <div className="ms-3">
+            <Link to="/">
+              <img className="wittyLogo" src={wittylogo}></img>
+            </Link>
           </div>
           <button
             className="navbar-toggler"
@@ -26,12 +28,12 @@ const Navbar = () => {
             <ul className="navbar-nav me-auto mb-2 mb-lg-0"></ul>
             <form className="d-flex">
               <div className="d-flex ">
-                <div className="logIn me-3">
-                  <Link to="/login" >Login</Link>
+                <div className="logIn me-5">
+                  <Link to="/login">Login</Link>
                 </div>
-                <div className="signUp me-3">
+                {/* <div className="signUp me-3">
                   <Link to="/signup">Signup</Link>
-                </div>
+                </div> */}
               </div>
             </form>
           </div>

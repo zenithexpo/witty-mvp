@@ -8,3 +8,7 @@
 .signUp a{
     text-decoration: none !important;
 }
+
+.topNav{
+    border-bottom:solid 1px;
+}
