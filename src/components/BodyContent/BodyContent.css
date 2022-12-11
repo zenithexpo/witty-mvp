@@ -1,3 +1,19 @@
-.hero{
-    background-color: "#DEE1E6FF"
+.hero {
+  background-color: "#DEE1E6FF";
+}
+
+.header-text {
+  font-size: 54px;
+  line-height: 76px;
+}
+
+.body-image{
+    max-width: 100%;
+    height: auto;
+}
+
+@media (min-width: 768px) and (max-width: 1400px) {
+    .body-image-container{
+      /* padding-left: 10%; */
+    }
 }
