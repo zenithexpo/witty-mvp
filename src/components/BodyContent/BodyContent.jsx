@@ -7,11 +7,11 @@ const BodyContent = () => {
     <div style={{ background: "#DEE1E6FF" }}>
       <div className="container" style={{ paddingTop: "6%" }}>
         <div className="text-center mb-5 header-text">Why join us?</div>
-        <div className="row mb-3 ms-2 me-2">
-          <div className="col-lg-6 col-md-6 col-sm-12 mb-2 d-flex justify-content-center align-items-center">
+        <div className="row mb-5 ms-2 me-2 items">
+          <div className="col-lg-6 col-md-6 col-sm-12 mb-2" style={{paddingTop : "14%"}}>
             <div>
               <div className="mb-4">
-                <h2>Own the technologies in few clicks</h2>
+                <h2>Own the technology in few clicks</h2>
               </div>
               <div className="mb-4">
                 Display your businesses' online persona like never before.
@@ -36,7 +36,7 @@ const BodyContent = () => {
           </div>
         </div>
 
-        <div className="row mb-3 ms-2 me-2">
+        <div className="row mb-5 ms-2 me-2 items">
           <div className="col-lg-6 col-md-6 col-sm-12 mb-2 d-flex align-items-center body-image-container">
             <img
               className="body-image"
@@ -67,8 +67,8 @@ const BodyContent = () => {
           </div>
         </div>
 
-        <div className="row mb-3 ms-2 me-2">
-          <div className="col-lg-6 col-md-6 col-sm-12 mb-2 d-flex justify-content-center align-items-center">
+        <div className="row mb-5 ms-2 me-2 items">
+          <div className="col-lg-6 col-md-6 col-sm-12 mb-2" style={{paddingTop : "14%"}}>
             <div>
               <div className="mb-4">
                 <h2>Don't settle, show your presence</h2>

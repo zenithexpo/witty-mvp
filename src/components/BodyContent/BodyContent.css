@@ -12,8 +12,14 @@
     height: auto;
 }
 
-@media (min-width: 768px) and (max-width: 1400px) {
-    .body-image-container{
-      /* padding-left: 10%; */
+.items{
+
+}
+
+@media (max-width: 768px) {
+    .items{
+      box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+      border-radius: 10px;
+      padding: 10px 10px;
     }
 }

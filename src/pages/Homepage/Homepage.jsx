@@ -8,8 +8,8 @@ const Homepage = () => {
   return (
     <div>
       <>
-        <div className="container mb-5">
-          <div className="row" style={{marginTop:"7%"}}>
+        <div className="mb-5">
+          <div className="row" style={{padding:"7%"}}>
             <div className="col-lg-7 col-md-12 col-sm-12 d-flex align-items-center mb-5">
               <div className="body-top">
                 <div className="tagline-question">Already in travel business?</div>
@@ -35,5 +35,3 @@ const Homepage = () => {
 };
 
 export default Homepage;
-
-// Added comment to check whether forking and raising pr is working or not
