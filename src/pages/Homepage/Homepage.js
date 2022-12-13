@@ -1,5 +1,6 @@
 import React from "react";
 import BodyContent from "../../components/BodyContent/BodyContent";
+import imgOne from "../../assets/side-image.png"
 import "./Homepage.css";
 
 const Homepage = () => {
@@ -21,7 +22,7 @@ const Homepage = () => {
             </div>
             <div className="col-lg-5 col-md-12 col-sm-12 mb-3 d-flex">
               <div>
-                <img className="img-fluid" src="/images/side-image.png" atl="Image"></img>
+                <img className="img-fluid" src={imgOne} atl="Image"></img>
               </div>
             </div>
           </div>

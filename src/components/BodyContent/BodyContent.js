@@ -1,5 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import imgTwo from "../../assets/body-image.png";
+import imgThree from "../../assets/team-work.png";
+import imgFour from "../../assets/body-image.png"
 import "./BodyContent.css";
 
 const BodyContent = () => {
@@ -30,7 +33,7 @@ const BodyContent = () => {
           <div className="col-lg-6 col-md-6 col-sm-12 mb-2 d-flex align-items-center body-image-container">
             <img
               className="body-image"
-              src="/images/body-image.png"
+              src={imgTwo}
               alt="sideImage"
             ></img>
           </div>
@@ -40,7 +43,7 @@ const BodyContent = () => {
           <div className="col-lg-6 col-md-6 col-sm-12 mb-2 d-flex align-items-center body-image-container">
             <img
               className="body-image"
-              src="/images/team-work.png"
+              src={imgThree}
               alt="sideImage"
             ></img>
           </div>
@@ -91,7 +94,7 @@ const BodyContent = () => {
           <div className="col-lg-6 col-md-6 col-sm-12 mb-2 d-flex align-items-center body-image-container">
             <img
               className="body-image"
-              src="/images/body-image.png"
+              src={imgFour}
               alt="sideImage"
             ></img>
           </div>
