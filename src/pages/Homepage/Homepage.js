@@ -1,13 +1,13 @@
 import React from "react";
 import BodyContent from "../../components/BodyContent/BodyContent";
 import Navbar from "../../components/Navbar/Navbar";
-import Searchbar from "../../components/Searchbar/Searchbar";
 import "./Homepage.css";
 
 const Homepage = () => {
   return (
     <div>
       <>
+      <Navbar></Navbar>
         <div className="mb-5">
           <div className="row" style={{padding:"7%"}}>
             <div className="col-lg-7 col-md-12 col-sm-12 d-flex align-items-center mb-5">
